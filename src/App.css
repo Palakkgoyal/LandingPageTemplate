@@ -1,4 +1,8 @@
 #root {
-  max-width: 1280px;
-  margin: 0 auto;
+  /* max-width: 1280px;
+  margin: 0 auto; */
+}
+
+.feature-card:hover > .feature-image {
+  background: rgb(14, 197, 253);
 }

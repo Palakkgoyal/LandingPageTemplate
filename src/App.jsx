@@ -14,7 +14,7 @@ import {
 function App() {
   return (
     <div className="">
-      <Navbar />
+      {/* <Navbar /> */}
       <Hero />
       <WhatIDo />
       <Features />
