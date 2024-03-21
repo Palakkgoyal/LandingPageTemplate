@@ -6,3 +6,7 @@
 .feature-card:hover > .feature-image {
   background: rgb(14, 197, 253);
 }
+
+.slant-container {
+  clip-path: polygon(0 39%, 100% 3%, 100% 100%, 0% 100%);
+}

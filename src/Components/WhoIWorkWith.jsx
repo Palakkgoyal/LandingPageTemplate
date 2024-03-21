@@ -9,9 +9,9 @@ const WhoIWorkWith = () => {
     >
       <div className="ml-24 z-10">
         <SectionTitle title="Who I Work With" textClasses="text-[#FFD700]" spanClasses="bg-[#FFD700]" />
-        <h1 className="text-6xl mt-4 max-w-[18ch] p-0 font-semibold">
+        <h3 className="text-6xl mt-4 max-w-[18ch] p-0 font-semibold leading-tight">
           Art Direction for global leading brands
-        </h1>
+        </h3>
         <p className="mt-12 max-w-[37ch]">
           I research and create breakthrough delightful leading visual designers
         </p>
