@@ -4,7 +4,7 @@ import { testimonialImg } from "../assets";
 const Testimonials = () => {
   return (
     <div className="bg-slate-50 py-20 select-none ">
-      <div className="text-center max-w-[1280px] relative">
+      <div className="text-center max-w-[1280px] mx-auto relative">
         <p className="text-blue-800 font-semibold z-10">What People Say</p>
         <h3 className="text-5xl font-bold w-[10ch] mx-auto z-10">
           Trusted by Clients.
@@ -16,7 +16,7 @@ const Testimonials = () => {
         />
       </div>
       <div className="mt-20 max-w-[1280px] mx-auto">
-        <ul className="px-8 columns-3 gap-x-5">
+        <ul className="px-4 md:px-8 md:columns-2 lg:columns-3 gap-x-5">
           {testimonials.map((testimonial, idx) => (
             <TestimonialCard {...testimonial} key={idx} />
           ))}
@@ -29,7 +29,7 @@ const Testimonials = () => {
 function TestimonialCard({ review, src, name, position, style }) {
   return (
     <div
-      className={`p-5 ${style} hover:shadow-2xl transition-all ease-in-out w-full break-inside-avoid flex flex-col gap-5 border-2 border-solid border-gray-400 rounded-lg shadow-md mb-3`}
+      className={`py-5 px-2 md:p-5 ${style} hover:shadow-2xl transition-all ease-in-out w-full break-inside-avoid flex flex-col gap-5 border-2 border-solid border-gray-400 rounded-lg shadow-md mb-3`}
     >
       <p>{review}</p>
       <div className="flex items-center gap-3">
@@ -38,7 +38,7 @@ function TestimonialCard({ review, src, name, position, style }) {
         </div>
         <div>
           <h5 className="font-semibold">{name}</h5>
-          <p className="text-sm ">{position}</p>
+          <p className="text-sm">{position}</p>
         </div>
       </div>
     </div>

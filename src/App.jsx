@@ -13,8 +13,8 @@ import {
 
 function App() {
   return (
-    <div className="">
-      {/* <Navbar /> */}
+    <div className="w-full">
+      <Navbar />
       <Hero />
       <WhatIDo />
       <Features />

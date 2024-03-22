@@ -8,15 +8,15 @@ import { FaXTwitter } from "react-icons/fa6";
 
 const Contact = () => {
   return (
-    <div className="bg-slate-50 py-20 relative z-10">
-      <div className="bg-white w-[90vw] max-w-[1000px] mx-auto p-16 rounded-lg">
-        <div className="relative flex justify-between">
-          <div>
+    <div className="bg-slate-50 py-20 relative z-10 overflow-hidden">
+      <div className="bg-white w-[90vw] max-w-[1000px] mx-auto py-10 px-5 md:p-16 rounded-lg">
+        <div className="relative w-full flex justify-center md:justify-between items-center gap-3">
+          <div className="">
             <SectionTitle title="Say Hello 👋" />
-            <h3 className="text-6xl font-bold w-[16ch] my-10">
+            <h3 className="text-3xl md:text-6xl font-bold md:w-[9ch] my-5 md:my-10">
               Let's Work Together
             </h3>
-            <p className="text-lg font-semibold w-[30ch]">
+            <p className="md:text-lg font-semibold w-[30ch]">
               I'd love to meet with you to discuss your venture, and potential
               collaborations
             </p>
@@ -24,12 +24,12 @@ const Contact = () => {
           <img
             src="https://pbs.twimg.com/profile_images/1751559032849186816/cdCsBKvJ_400x400.jpg"
             alt="Anukiran Ghosh"
-            className="w-[300px] aspect-auto"
+            className="hidden md:inline-block md:w-[250px] aspect-auto lg:w-[300px]"
           />
         </div>
 
-        <div className="mt-10 flex gap-5 justify-between">
-          <div className="flex flex-col gap-3">
+        <div className="mt-10 flex flex-col-reverse md:flex-row gap-5 justify-between">
+          <div className="flex md:flex-col flex-wrap gap-3">
             <a
               className="flex gap-4 items-center cursor-pointer"
               href="mailto:testing@example.com"
@@ -57,7 +57,10 @@ const Contact = () => {
               <p>+888234323</p>
             </a>
           </div>
-          <form action="" className="flex flex-col gap-4 w-full max-w-[450px]">
+          <form
+            action=""
+            className="flex flex-col gap-4 w-full mx-auto max-w-[450px]"
+          >
             <input
               type="text"
               name="name"
@@ -83,7 +86,7 @@ const Contact = () => {
               className="border focus-visible:outline-none focus-visible:shadow-lg focus-visible:bg-slate-50 border-gray-50 shadow-sm px-3 py-2 rounded-md w-full"
               required
             />
-            <button className="flex gap-2 items-center bg-blue-600 text-white px-6 py-3 w-fit text-lg rounded-lg font-bold">
+            <button className="flex gap-2 items-center bg-blue-600 text-white px-6 py-3 w-fit md:text-lg rounded-lg font-bold">
               Let's talk
               <HiArrowLongRight />
             </button>
@@ -103,8 +106,7 @@ const Contact = () => {
           </a>
         </div>
       </div>
-      <div className="absolute slant-container bg-blue-900 w-full h-[500px] bottom-0 -z-[1]"></div>
-      <div className="absolute slant-container bg-blue-900 w-full h-[500px] bottom-0 -z-[1]"></div>
+      <div className="absolute slant-container bg-[#0a1a46] w-full h-[500px] bottom-0 -z-[1]"></div>
     </div>
   );
 };
