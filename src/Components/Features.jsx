@@ -20,7 +20,7 @@ const data = [
 
 const Features = () => {
   return (
-    <div className="px-6 md:p-20 mt-20">
+    <div className="px-6 md:pb-20 md:px-12 lg:px-20" id="features">
       <div className="max-w-[1600px] mx-auto">
         <ul className="flex flex-wrap justify-center gap-10 w-full">
           {data.map((card, idx) => (
@@ -32,9 +32,11 @@ const Features = () => {
             />
           ))}
         </ul>
-        <button className="mt-7 text-right block ml-auto text-blue-700 font-semibold">
-          Contact Me
-        </button>
+        <a href="#contact">
+          <button className="mt-7 text-right block ml-auto text-blue-700 font-semibold">
+            Contact Me
+          </button>
+        </a>
       </div>
     </div>
   );

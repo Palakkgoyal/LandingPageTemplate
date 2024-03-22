@@ -1,6 +1,6 @@
 const Footer = () => {
   return (
-    <div className="bg-[#0a1a46] text-white px-5 md:px-20 pt-20">
+    <div className="bg-[#0a1a46] text-white px-5 md:px-20 pt-20" id="footer">
       <div className="flex flex-col md:flex-row max-w-[900px] mx-auto justify-between">
         <div>
           <h3 className="text-2xl md:text-4xl lg:text-5xl mb-10 font-semibold w-[20ch]">
@@ -11,26 +11,26 @@ const Footer = () => {
         <div>
           <ul className="flex mt-6 md:mt-0 md:flex-col gap-2 text-sm md:text-lg font-semibold">
             <li className="cursor-pointer hover:underline">
-              <a href="#">About Me</a>
+              <a href="#hero">About Me</a>
             </li>
             <li className="cursor-pointer hover:underline">
-              <a href="#">Contact</a>
+              <a href="#contact">Contact</a>
             </li>
             <li className="cursor-pointer hover:underline">
-              <a href="#">Projects</a>
+              <a href="#projects">Projects</a>
             </li>
             <li className="cursor-pointer hover:underline">
-              <a href="#">LinkedIn</a>
+              <a href="https://linkedin.com/" target="_blank">LinkedIn</a>
             </li>
             <li className="cursor-pointer hover:underline">
-              <a href="#">Twitter</a>
+              <a href="https://twitter.com/" target="_blank">Twitter</a>
             </li>
           </ul>
         </div>
       </div>
       <div className="mt-16 flex justify-between py-8 border-t-2 border-[#152860] border-solid">
         <p>©2024 MIT</p>
-        <a href="" className="font-bold">Back to Top</a>
+        <a href="#hero" className="font-bold">Back to Top</a>
       </div>
     </div>
   );

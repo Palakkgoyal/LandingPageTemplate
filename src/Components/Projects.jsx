@@ -21,7 +21,7 @@ const Projects = () => {
   }
 
   return (
-    <div className="px-4 overflow-hidden md:px-10 lg:px-24 min-h-screen pt-20 pb-20 bg-slate-50">
+    <div className="px-4 overflow-hidden md:px-10 lg:px-24 min-h-screen pt-20 pb-20 bg-slate-50" id="projects">
       <div>
         <SectionTitle title="Jack Gross" />
         <div className="relative w-fit">

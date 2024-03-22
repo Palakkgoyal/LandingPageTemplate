@@ -5,7 +5,7 @@ const WhoIWorkWith = () => {
   return (
     <div
       className="bg-blue-900 overflow-hidden relative text-white flex flex-col md:flex-row gap-0 min-h-screen justify-around items-center pt-16 px-4 text-center md:text-left"
-      id="hero"
+      id="who-I-work-with"
     >
       <div className="md:ml-24 z-10">
         <SectionTitle

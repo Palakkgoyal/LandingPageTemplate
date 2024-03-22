@@ -3,7 +3,7 @@ import { testimonialImg } from "../assets";
 
 const Testimonials = () => {
   return (
-    <div className="bg-slate-50 py-20 select-none ">
+    <div className="bg-slate-50 py-20 select-none" id="testimonials">
       <div className="text-center max-w-[1280px] mx-auto relative">
         <p className="text-blue-800 font-semibold z-10">What People Say</p>
         <h3 className="text-5xl font-bold w-[10ch] mx-auto z-10">

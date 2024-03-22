@@ -8,7 +8,7 @@ import { FaXTwitter } from "react-icons/fa6";
 
 const Contact = () => {
   return (
-    <div className="bg-slate-50 py-20 relative z-10 overflow-hidden">
+    <div className="bg-slate-50 py-20 relative z-10 overflow-hidden" id="contact">
       <div className="bg-white w-[90vw] max-w-[1000px] mx-auto py-10 px-5 md:p-16 rounded-lg">
         <div className="relative w-full flex justify-center md:justify-between items-center gap-3">
           <div className="">
