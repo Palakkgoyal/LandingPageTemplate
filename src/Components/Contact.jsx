@@ -62,8 +62,7 @@ const Contact = () => {
           </div>
           <form
             name="contact"
-            action="/contact"
-            method="POST"
+            method="post"
             className="flex flex-col gap-4 w-full mx-auto max-w-[450px]"
           >
             <input type="hidden" name="form-name" value="contact" />
