@@ -58,10 +58,12 @@ const Contact = () => {
             </a>
           </div>
           <form
-            action=""
+            name="contact"
+            method="POST"
+            data-netlify="true"
+            onSubmit="submit"
             className="flex flex-col gap-4 w-full mx-auto max-w-[450px]"
             netlify
-            name="contact"
           >
             <input
               type="text"
@@ -88,7 +90,7 @@ const Contact = () => {
               className="border focus-visible:outline-none focus-visible:shadow-lg focus-visible:bg-slate-50 border-gray-50 shadow-sm px-3 py-2 rounded-md w-full"
               required
             />
-            <button className="flex gap-2 items-center bg-blue-600 text-white px-6 py-3 w-fit md:text-lg rounded-lg font-bold">
+            <button type="submit" className="flex gap-2 items-center bg-blue-600 text-white px-6 py-3 w-fit md:text-lg rounded-lg font-bold">
               Let's talk
               <HiArrowLongRight />
             </button>
