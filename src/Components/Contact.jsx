@@ -57,14 +57,7 @@ const Contact = () => {
               <p>+888234323</p>
             </a>
           </div>
-          <form
-            name="contact"
-            method="POST"
-            data-netlify="true"
-            onSubmit="submit"
-            className="flex flex-col gap-4 w-full mx-auto max-w-[450px]"
-            netlify
-          >
+          <form name="contact" netlify>
             <input
               type="text"
               name="name"
