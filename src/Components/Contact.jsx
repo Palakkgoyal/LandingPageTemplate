@@ -60,6 +60,8 @@ const Contact = () => {
           <form
             action=""
             className="flex flex-col gap-4 w-full mx-auto max-w-[450px]"
+            netlify
+            name="contact"
           >
             <input
               type="text"
